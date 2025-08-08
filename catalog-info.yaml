@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: stackoverflowtagprediction
+  description: A machine learning project aimed at predicting tags for Stack Overflow questions to improve searchability and categorization.
+  annotations:
+    github.com/project-slug: Musquan/StackOverflowTagPrediction
+    jira/project-key: SCRUM
+    jira/label: backstage-component:stackoverflowtagprediction
+spec:
+  type: application
+  owner: ICS
+  lifecycle: experimental
